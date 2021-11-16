@@ -19,7 +19,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 Max van Dieren
  
 #### Je startniveau:
-Rood
+Blauw
 
 #### Je focus:
 Responsive
