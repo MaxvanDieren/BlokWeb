@@ -40,20 +40,29 @@ body {
     text-align: left;
     font-family: "Neuzeit Grotesk", sans-serif;
     -webkit-font-smoothing: antialiased;
-   / overflow: scroll;
+    overflow: scroll;
     /* -webkit-overflow-scrolling: touch; */
     margin: 0;
     /* padding: var(--whitespace); */
-/height: 500vw;
+    height: 500vw;
+    
 }
 
 /* HEADER */
+
+header{
+    z-index: 40;
+    position: absolute;
+    top: 1vh;
+    left: 15vh;
+}
 
 header nav ul{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-content:center;
+    margin: 1vh 0vh 0vh 0vh;
 }
 
 header nav li{
@@ -65,7 +74,9 @@ header section{
     align-items: center;
     justify-content: center;
     display: flex;
-    top: 0;
+    position: sticky;
+    top: 0.5vh;
+    
 }
 
 header section a img{
@@ -109,15 +120,20 @@ main section article:first-child{
 }
 
 main section article img{
-    width: 375px;
-
+    
+    position: absolute;
+    left: 0;
+    width: 113%;
+    top: -11vh;
+    height: auto;
+    overflow-x: hidden;
 }
 
 main section article:nth-child(2){
     background-color: #fff8ed;
     padding: 0 3%;
     position: relative;
-    top: -7.5vw;
+    top: 167vw;
 }
 
 main section article:first-child h1{
@@ -127,7 +143,7 @@ main section article:first-child h1{
     width: 100%;
     font-size: calc(21.02326px + 8.43023vw);
     position: absolute;
-    top: 74vw;
+    top: 132vw;
 }
 
 main section article:nth-child(2) p{
@@ -135,13 +151,20 @@ main section article:nth-child(2) p{
     font-family: "Vanitas Regular", sans-serif;
     font-size: calc(27.03876px + 1.55039vw);
     line-height: 1.2;
+    
+}
+
+main section article:nth-child(2) h2{
+    position: absolute;
+    top: 0vh;
 }
 
 /* FOOTER */
 
 footer{
     background-color: brown;
-    
+    position: absolute;
+    top: 220vh;
 }
 
 footer ul{
