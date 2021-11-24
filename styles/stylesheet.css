@@ -104,7 +104,7 @@ main section{
 main section article:first-child{
     width: 100%;
     padding: 5%;
-    position: absolute;  
+    position: relative;  
     top: -1vw;    
 }
 
@@ -116,8 +116,8 @@ main section article img{
 main section article:nth-child(2){
     background-color: #fff8ed;
     padding: 0 3%;
-    position: absolute;
-    top: 118vw;
+    position: relative;
+    top: -7.5vw;
 }
 
 main section article:first-child h1{
@@ -126,6 +126,8 @@ main section article:first-child h1{
     bottom: 0;
     width: 100%;
     font-size: calc(21.02326px + 8.43023vw);
+    position: absolute;
+    top: 74vw;
 }
 
 main section article:nth-child(2) p{
